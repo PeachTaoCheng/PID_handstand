@@ -1,3 +1,18 @@
 build
 mx.scratch
-!.settings
+.settings
+
+# Specific files
+.clangd
+.mxproject
+CMakePresets.json
+startup_stm32f103xb.s
+# CMake and VS Code local files
+compile_commands.json
+.cache/
+
+# Build output (just in case they are generated in the root)
+*.elf
+*.bin
+*.hex
+*.map
